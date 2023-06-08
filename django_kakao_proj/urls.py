@@ -20,6 +20,7 @@ from kakaomap_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('json/', views.json, name = 'json'),
     path('', views.index, name = 'index'),
+    path('json_func/', views.json_func, name = 'json_func'),
+    path('kakaomap_1st/', views.kakaomap_1st, name = 'kakaomap_1st'),
 ]
